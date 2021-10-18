@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+    background-color: gray;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(229, 6%, 66%);
+}
+body {
+  background-color: white;
+  margin:0 auto;
+}
+.clear-fix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*////////////////////////////////Header////////////////////////////////*/
+header {
+  text-align: center;
+  padding-top: 50px;
+}
+h1 {
+  font-size: 200%;
+  font-weight: 200;
+  color:rgba(0, 0, 0, 0.5);
+}
+h2 {
+  font-size: 190%;
+  font-weight: 700;
+  color:rgba(0, 0, 0, 0.5);
+}
+p {
+  margin-top: 20px;
+}
+/*////////////////////////////////Content////////////////////////////////*/
+.row {
+  margin-top: 50px;
+  padding: 20px;
+}
+.col {
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+h3{
+    font-size: 150%;
+    font-weight:700;
+    color:rgba(0, 0, 0, 0.5);
+}
+.box {
+  box-shadow: 1px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 40px auto;
+  height: 40vh;
+  padding: 30px;
+  position: relative;
+  box-sizing: border;
+}
+.supervisor,
+.calculator {
+    margin-top: 50%;
+}
+/* img */
+.box img{
+    position: absolute;
+    bottom:40px;
+    right: 40px;
+}
+
+
+
+
+/* line */
+.line {
+  padding: 3px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.team-builder .line {
+  background-color: hsl(0, 78%, 62%);
+}
+.supervisor .line {
+  background-color: hsl(180, 62%, 55%);
+}
+.karma .line {
+  background-color: hsl(34, 97%, 64%);
+}
+.calculator .line {
+  background-color: hsl(212, 86%, 64%);
+}
